@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark  justify-content-center">
+           <div class="container-fluid " >
+               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#colapnavbar">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <a href="" class="navbar-brand ">
+                   Hacky
+               </a>
+               <div class="access1 d-flex flex-row  order-sm-1 order-lg-2 ">
+                   <a href="#" class="navbar-brand ">
+                       <img src="./../../adv-out1.png" width="30" height="30" alt="" name="login">
+                   </a>
+                   <a href="./cart.html" class="navbar-brand">
+                       <img src="./../../adv-out1.png" width="30" height="30" alt="" name="cart">
+                   </a>
+               </div>
+               
+               <div id="inp" class=" w-100 d-flex align-items-center justify-content-center mt-2">
+                   <input type="text" class="px-3" name="sear" style="width: 100%;">
+                   <img src="./../images/user-solid.svg"   height="25" alt="" style="width: 30%;"/>
+               </div>
+               <div class="collapse navbar-collapse order-3" id="colapnavbar">
+                   <ul class="navbar-nav ">
+                       <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                       <li class="nav-item"><a href="./userprofile2.html" class="nav-link">Profile</a></li>
+                       <li class="nav-item"><a href="./wishlist.html" class="nav-link">Wishlist</a></li>
+                       <li class="nav-item"><a href="./product.html" class="nav-link">Product </a></li>
+                       <li class="nav-item"><a href="./checkout.html" class="nav-link">Checkout</a></li>
+                   </ul>
+               </div>
+               
+           </div>
+       </nav>
+   </header>
+  
+   <main class="container">
+        <div class="row">
+            <h1>Checkout</h1>
+        </div>
+        <div class="row billadd">
+            <h4>Billing Details</h4>
+            <form action="" method="post" class="d-flex flex-column container" style="gap:10px;">
+                
+                <div class="row ">
+                    <label for="" class="row">First Name</label>
+                    <input type="text" class="row p-1" placeholder="Enter name">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Last Name</label>
+                    <input type="text" class="row p-1" placeholder="Enter name">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Contact Number</label>
+                    <input type="tel" class="row p-1" placeholder="Last name">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Country/Region</label>
+                    <input type="text" class="row p-1" placeholder="Country/Region">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Street Address</label>
+                    <input type="text" class="row p-1 mb-3" placeholder="House number and Street name">
+                    <input type="text" class="row p-1" placeholder="Apartment,unit,etc (optional)">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Town/ City</label>
+                    <input type="text" class="row p-1" placeholder="Town/City">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Zip Code</label>
+                    <input type="number" class="row p-1" placeholder="">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Phone</label>
+                    <input type="tel"" class="row p-1" placeholder="Contact number">
+                </div>
+                <div class="row">
+                    <label for="" class="row">Email Address</label>
+                    <input type="text" class="row p-1" placeholder="Email">
+                </div>
+            </form>
+        </div>
+        <br><hr class="w-100">
+        <h4>Your Order</h4>
+        <div class="row billorder">
+          <div class="col">
+            <h4>Product</h4>
+            <p>Product1  x 1</p>
+            <p>Product1  x 1</p>
+            <p>Product1  x 1</p>
+            <h4>Subtotal</h4>
+          </div>
+          <div class="col">
+            <h4>Product</h4>
+            <p>$20.00</p>
+            <p>$20.00</p>
+            <p>$20.00</p>
+            <h4>$60.00</h4>
+          </div>  
+        </div>
+        <hr>
+        <div class="row ordertotal">
+            <div class="col h4"> total</div>
+            <div class="col h4">$70.00</div>
+        </div><br>
+        <button class="btn btn-outline-danger w-100">Place Order</button>
+   </main>
+   <br>
+   <footer class="bg-success row" style="width:101%;">
+    <div class="row p-3">
+        <div class="col">
+            <h1>Grocerex</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, optio. Asperiores sunt iure expedita velit maiores, non quos voluptates deserunt.</p>
+        </div>
+    
+        <div class="col">
+            <h2>Support</h2>
+            <p>Track Your Order</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Popcy</p>
+            <p>Help Center</p>
+        </div>
+
+        <div class="col">
+            <h2>Contact</h2>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">Place x,XY floor,xyz Streeet,xyz</p>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">hacky@gmail.com</p>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">+123-456-0789</p>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="row p-2 ">
+        <p class="text-center">Copyright@ 2023 Grocerex By Hackylazymedia. All Rights Reserved</p>
+    </div>
+</footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>

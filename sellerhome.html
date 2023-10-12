@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark  justify-content-center">
+           <div class="container-fluid " >
+               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#colapnavbar">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <a href="" class="navbar-brand ">
+                   Hacky
+               </a>
+               <div class="access1 d-flex flex-row  order-sm-1 order-lg-2 ">
+                   <a href="" class="navbar-brand ">
+                       <img src="./../../adv-out1.png" width="30" height="30" alt="" name="login">
+                   </a>
+                   <a href="" class="navbar-brand">
+                       <img src="./../../adv-out1.png" width="30" height="30" alt="" name="cart">
+                   </a>
+               </div>
+               <!---
+               <div id="inp" class=" w-100 d-flex align-items-center justify-content-center mt-2">
+                   <input type="text" class="px-3" name="sear" style="width: 100%;">
+                   <img src="./../images/user-solid.svg"   height="25" alt="" style="width: 30%;"/>
+               </div>-->
+               <div class="collapse navbar-collapse order-3" id="colapnavbar">
+                   <ul class="navbar-nav ">
+                       <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                       <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+                       <li class="nav-item"><a href="" class="nav-link">Orders </a></li>
+                       <li class="nav-item"><a href="" class="nav-link">Review </a></li>
+                   </ul>
+               </div>
+               
+           </div>
+       </nav>
+   </header>
+  <main class="container-fluid">
+    <section class="s" id="sh">
+        <div class="bg-info p-2 row justify-content-center">
+            <h1 class="col-lg row-sm row-md">Your Shop Name</h1>
+            <!---
+            <nav class="col-lg row-sm row-md">
+                <ul class="list-unstyled row">
+                    <li class="col h5 pt-2 "><a href="">Home</a></li>
+                    <li class="col h5 pt-2"><a href="">Products</a></li>
+                    <li class="col h5 pt-2"><a href="">Orders</a></li>
+                    <li class="col h5 pt-2"><a href="">Reviews</a></li>
+                </ul>
+            </nav>
+            --->
+        </div>
+        <br>
+        <div>
+            <img src="" alt="" style="height: 80vh; width: 100%; background: rebeccapurple;">
+        </div>
+        <br>
+        <div id="seller-info" class="row d-flex flex-column align-items-center px-3">
+                <h2 class="col text-center">Seller Name</h2>
+                <p class="row">Description of Seller and Brand Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et laboriosam voluptas vitae sed? Deserunt repellendus natus dolorem dolor necessitatibus iusto magnam deleniti debitis. Ipsa dicta fuga accusantium ex similique soluta.</p>
+        </div>
+        <div id="performance" class="row  gap-3 px-3">
+                <div class="row-sm col-md col-lg d-flex flex-column align-items-center bg-warning py-3 border">
+                    <h3>Total Sales</h3>
+                    <p>$XX,XXX</p>
+                </div>
+                <div class="row-sm col-md col-lg d-flex flex-column align-items-center bg-warning py-3 border">
+                    <h3>Total Orders</h3>
+                    <p>XX</p>
+                </div>
+                <div class="row-sm col-md col-lg d-flex flex-column align-items-center bg-warning py-3 border">
+                    <h3>Total Products</h3>
+                    <p>XX</p>
+                </div>
+        </div>
+        <!---
+        <section class="s">
+            <div class="row">
+                <div class="col-8">
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </section>
+        <section class="s"></section>
+        <section class="s"></section>
+        <section class="s"></section>
+        --->
+    
+    </section><hr>
+    <section class="s" id="sp">
+        <h1 class="text-center">Products</h1>
+        <br>
+        <div id="performance" class="row  gap-3 px-3">
+            <div class="row-sm col-md col-lg d-flex flex-column align-items-center bg-warning py-3 border">
+                <h3>Total Products Listed</h3>
+                <p>XX</p>
+            </div>
+            <div class="row-sm col-md col-lg d-flex flex-column align-items-center bg-warning py-3 border">
+                <h3>Total Soldout Products</h3>
+                <p>XX</p>
+            </div>
+        </div>
+        <br>
+        <div class="container w-100">
+            <div class="row ">
+                <div class="col-sm-12 col-md-6 col-lg-4 border border-dark border-2 d-flex flex-column gap-3 py-2">
+                    <div class="row">
+                        <img src="" alt="" width="100" height="300">
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-4">
+                            <p>Prod_Name</p>
+                            <p>Prod_Price</p>
+                            <p>Prod_qnty</p>
+                            <p>Prod_Desc</p>
+                        </div>
+                        <div class="col-8">
+                            <p><b>Artician Chair</b></p>
+                            <p><b>$50.00</b></p>
+                            <p><b>10</b></p>
+                            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatum cupiditate animi fuga cum temporibus repellat numquam accusamus atque, officiis unde. Modi sit odio veritatis illum sequi ut error corrupti!</b></p>
+                        </div>
+                    </div>
+                    <div class="row gap-5 px-4">
+                        <button class="col btn btn-outline-info">Add More</button>
+                        <button class="col btn btn-outline-primary">Edit</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 border border-dark border-2 d-flex flex-column gap-3 py-2">
+                    <div class="row">
+                        <img src="" alt="" width="100" height="300">
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-4">
+                            <p>Prod_Name</p>
+                            <p>Prod_Price</p>
+                            <p>Prod_qnty</p>
+                            <p>Prod_Desc</p>
+                        </div>
+                        <div class="col-8">
+                            <p><b>Artician Chair</b></p>
+                            <p><b>$50.00</b></p>
+                            <p><b>10</b></p>
+                            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatum cupiditate animi fuga cum temporibus repellat numquam accusamus atque, officiis unde. Modi sit odio veritatis illum sequi ut error corrupti!</b></p>
+                        </div>
+                    </div>
+                    <div class="row gap-5 px-4">
+                        <button class="col btn btn-outline-info">Add More</button>
+                        <button class="col btn btn-outline-primary">Edit</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 border border-dark border-2 d-flex flex-column gap-3 py-2">
+                    <div class="row">
+                        <img src="" alt="" width="100" height="300">
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-4">
+                            <p>Prod_Name</p>
+                            <p>Prod_Price</p>
+                            <p>Prod_qnty</p>
+                            <p>Prod_Desc</p>
+                        </div>
+                        <div class="col-8">
+                            <p><b>Artician Chair</b></p>
+                            <p><b>$50.00</b></p>
+                            <p><b>10</b></p>
+                            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatum cupiditate animi fuga cum temporibus repellat numquam accusamus atque, officiis unde. Modi sit odio veritatis illum sequi ut error corrupti!</b></p>
+                        </div>
+                    </div>
+                    <div class="row gap-5 px-4">
+                        <button class="col btn btn-outline-info">Add More</button>
+                        <button class="col btn btn-outline-primary">Edit</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 border border-dark border-2 d-flex flex-column gap-3 py-2">
+                    <div class="row">
+                        <img src="" alt="" width="100" height="300">
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-4">
+                            <p>Prod_Name</p>
+                            <p>Prod_Price</p>
+                            <p>Prod_qnty</p>
+                            <p>Prod_Desc</p>
+                        </div>
+                        <div class="col-8">
+                            <p><b>Artician Chair</b></p>
+                            <p><b>$50.00</b></p>
+                            <p><b>10</b></p>
+                            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatum cupiditate animi fuga cum temporibus repellat numquam accusamus atque, officiis unde. Modi sit odio veritatis illum sequi ut error corrupti!</b></p>
+                        </div>
+                    </div>
+                    <div class="row gap-5 px-4">
+                        <button class="col btn btn-outline-info">Add More</button>
+                        <button class="col btn btn-outline-primary">Edit</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 border border-dark border-2 d-flex flex-column gap-3 py-2">
+                    <div class="row">
+                        <img src="" alt="" width="100" height="300">
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-4">
+                            <p>Prod_Name</p>
+                            <p>Prod_Price</p>
+                            <p>Prod_qnty</p>
+                            <p>Prod_Desc</p>
+                        </div>
+                        <div class="col-8">
+                            <p><b>Artician Chair</b></p>
+                            <p><b>$50.00</b></p>
+                            <p><b>10</b></p>
+                            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatum cupiditate animi fuga cum temporibus repellat numquam accusamus atque, officiis unde. Modi sit odio veritatis illum sequi ut error corrupti!</b></p>
+                        </div>
+                    </div>
+                    <div class="row gap-5 px-4">
+                        <button class="col btn btn-outline-info">Add More</button>
+                        <button class="col btn btn-outline-primary">Edit</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 border border-dark border-2 d-flex flex-column gap-3 py-2">
+                    <div class="row">
+                        <img src="" alt="" width="100" height="300">
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-4">
+                            <p>Prod_Name</p>
+                            <p>Prod_Price</p>
+                            <p>Prod_qnty</p>
+                            <p>Prod_Desc</p>
+                        </div>
+                        <div class="col-8">
+                            <p><b>Artician Chair</b></p>
+                            <p><b>$50.00</b></p>
+                            <p><b>10</b></p>
+                            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatum cupiditate animi fuga cum temporibus repellat numquam accusamus atque, officiis unde. Modi sit odio veritatis illum sequi ut error corrupti!</b></p>
+                        </div>
+                    </div>
+                    <div class="row gap-5 px-4">
+                        <button class="col btn btn-outline-info">Add More</button>
+                        <button class="col btn btn-outline-primary">Edit</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 border border-dark border-2 d-flex flex-column justify-content-center align-items-center gap-3 py-2">
+                    <h1>Add New Product</h1>
+                    <div class=""> 
+                        <img src="" alt="" width="100" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <h1></h1>
+    </section>
+    <section class="s" id="sr">
+        <h1>Reports</h1>
+        <div class="review">
+            <h3>Customer Review</h3>
+            <p>
+                <img src="" alt="" height="20" width="20">
+                <img src="" alt="" height="20" width="20">
+                <img src="" alt="" height="20" width="20">
+                <img src="" alt="" height="20" width="20">
+                <img src="" alt="" height="20" width="20">
+                4.5 out of 5
+            </p>
+            <br>
+            <div class="revcontain col">
+                <div class="col rev1">
+
+                    <div class="row revname">
+                        <img src="./../images/user-solid.svg" alt="">
+                        <p>Username </p>
+                    </div>
+                    <div class="row revhead">
+                        <p>
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <h5>High quality product</h5>
+                        </p>    
+                    </div>
+                    <div class="revdesc row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui corporis ipsam tenetur ab aperiam praesentium, laboriosam, debitis laudantium nihil exercitationem. Ea vitae, culpa ipsa quasi sunt eos sed velit!</p>
+                    </div>
+                    <div class="row revuse row container-fluid">
+
+                        <button class="btn  btn-outline-primary col" >Helpful</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-danger col">Report</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-info col">Reply</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="col rev1">
+
+                    <div class="row revname">
+                        <img src="./../images/user-solid.svg" alt="">
+                        <p>Username </p>
+                    </div>
+                    <div class="row revhead">
+                        <p>
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <h5>High quality product</h5>
+                        </p>    
+                    </div>
+                    <div class="revdesc row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui corporis ipsam tenetur ab aperiam praesentium, laboriosam, debitis laudantium nihil exercitationem. Ea vitae, culpa ipsa quasi sunt eos sed velit!</p>
+                    </div>
+                    <div class="row revuse row container-fluid">
+
+                        <button class="btn  btn-outline-primary col" >Helpful</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-danger col">Report</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-info col">Reply</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="col rev1">
+
+                    <div class="row revname">
+                        <img src="./../images/user-solid.svg" alt="">
+                        <p>Username </p>
+                    </div>
+                    <div class="row revhead">
+                        <p>
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <h5>High quality product</h5>
+                        </p>    
+                    </div>
+                    <div class="revdesc row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui corporis ipsam tenetur ab aperiam praesentium, laboriosam, debitis laudantium nihil exercitationem. Ea vitae, culpa ipsa quasi sunt eos sed velit!</p>
+                    </div>
+                    <div class="row revuse row container-fluid">
+
+                        <button class="btn  btn-outline-primary col" >Helpful</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-danger col">Report</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-info col">Reply</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="col rev1">
+
+                    <div class="row revname">
+                        <img src="./../images/user-solid.svg" alt="">
+                        <p>Username </p>
+                    </div>
+                    <div class="row revhead">
+                        <p>
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <h5>High quality product</h5>
+                        </p>    
+                    </div>
+                    <div class="revdesc row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui corporis ipsam tenetur ab aperiam praesentium, laboriosam, debitis laudantium nihil exercitationem. Ea vitae, culpa ipsa quasi sunt eos sed velit!</p>
+                    </div>
+                    <div class="row revuse row container-fluid">
+
+                        <button class="btn  btn-outline-primary col" >Helpful</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-danger col">Report</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-info col">Reply</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="col rev1">
+
+                    <div class="row revname">
+                        <img src="./../images/user-solid.svg" alt="">
+                        <p>Username </p>
+                    </div>
+                    <div class="row revhead">
+                        <p>
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <h5>High quality product</h5>
+                        </p>    
+                    </div>
+                    <div class="revdesc row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui corporis ipsam tenetur ab aperiam praesentium, laboriosam, debitis laudantium nihil exercitationem. Ea vitae, culpa ipsa quasi sunt eos sed velit!</p>
+                    </div>
+                    <div class="row revuse row container-fluid">
+
+                        <button class="btn  btn-outline-primary col" >Helpful</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-danger col">Report</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-info col">Reply</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="col rev1">
+
+                    <div class="row revname">
+                        <img src="./../images/user-solid.svg" alt="">
+                        <p>Username </p>
+                    </div>
+                    <div class="row revhead">
+                        <p>
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <img src="" alt="" height="20" width="20">
+                            <h5>High quality product</h5>
+                        </p>    
+                    </div>
+                    <div class="revdesc row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui corporis ipsam tenetur ab aperiam praesentium, laboriosam, debitis laudantium nihil exercitationem. Ea vitae, culpa ipsa quasi sunt eos sed velit!</p>
+                    </div>
+                    <div class="row revuse row container-fluid">
+
+                        <button class="btn  btn-outline-primary col" >Helpful</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-danger col">Report</button>
+                        <div class="col"><div class="vertical-line"></div></div>
+                        <button class="btn btn-info col">Reply</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </section>
+    <section class="s" id="so">
+        <h1>Orders</h1>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Order No</th>
+                        <th>Customer Name</th>
+                        <th>Shipping Addr</th>
+                        <th>Order Status</th>
+                        <th>Order Date</th>
+                        <th>Product Details</th>
+                        <th>Total Amt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>103</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Aringar anna st,Nagapatinam,TamilNadu-605601</td>
+                        <td>Delivered</td>
+                        <td>1/8/2023</td>
+                        <td>Artician table (2), Artician chocolates</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Aringar anna st,Nagapatinam,TamilNadu-605601</td>
+                        <td>Delivered</td>
+                        <td>1/8/2023</td>
+                        <td>Artician chocolates</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Aringar anna st,Nagapatinam,TamilNadu-605601</td>
+                        <td>Delivered</td>
+                        <td>1/8/2023</td>
+                        <td>Artician chocolates</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Aringar anna st,Nagapatinam,TamilNadu-605601</td>
+                        <td>Delivered</td>
+                        <td>1/8/2023</td>
+                        <td>Artician chocolates</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Aringar anna st,Nagapatinam,TamilNadu-605601</td>
+                        <td>Delivered</td>
+                        <td>1/8/2023</td>
+                        <td>Artician chocolates</td>
+                        <td>$100</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+        </div>
+    </section>
+    </main>
+    
+   <br>
+   <footer class="bg-success row" style="width:101%;">
+    <div class="row p-3">
+        <div class="col">
+            <h1>Grocerex</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, optio. Asperiores sunt iure expedita velit maiores, non quos voluptates deserunt.</p>
+        </div>
+    
+        <div class="col">
+            <h2>Support</h2>
+            <p>Track Your Order</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Popcy</p>
+            <p>Help Center</p>
+        </div>
+
+        <div class="col">
+            <h2>Contact</h2>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">Place x,XY floor,xyz Streeet,xyz</p>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">hacky@gmail.com</p>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">+123-456-0789</p>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="row p-2 ">
+        <p class="text-center">Copyright@ 2023 Grocerex By Hackylazymedia. All Rights Reserved</p>
+    </div>
+</footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>

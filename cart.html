@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark  justify-content-center">
+           <div class="container-fluid " >
+               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#colapnavbar">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <a href="" class="navbar-brand ">
+                   Hacky
+               </a>
+               <div class="access1 d-flex flex-row  order-sm-1 order-lg-2 ">
+                   <a href="#" class="navbar-brand ">
+                       <img src="./../../adv-out1.png" width="30" height="30" alt="" name="login">
+                   </a>
+                   <a href="./cart.html" class="navbar-brand">
+                       <img src="./../../adv-out1.png" width="30" height="30" alt="" name="cart">
+                   </a>
+               </div>
+               
+               <div id="inp" class=" w-100 d-flex align-items-center justify-content-center mt-2">
+                   <input type="text" class="px-3" name="sear" style="width: 100%;">
+                   <img src="./../images/user-solid.svg"   height="25" alt="" style="width: 30%;"/>
+               </div>
+               <div class="collapse navbar-collapse order-3" id="colapnavbar">
+                   <ul class="navbar-nav ">
+                       <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                       <li class="nav-item"><a href="./userprofile2.html" class="nav-link">Profile</a></li>
+                       <li class="nav-item"><a href="./wishlist.html" class="nav-link">Wishlist</a></li>
+                       <li class="nav-item"><a href="./product.html" class="nav-link">Product </a></li>
+                       <li class="nav-item"><a href="./checkout.html" class="nav-link">Checkout</a></li>
+                   </ul>
+               </div>
+               
+           </div>
+       </nav>
+   </header>
+  
+   <main class=".container-fluid p-3">
+    <h1>Shopping Cart</h1>
+    <hr>
+    <div class="subtot p-3">
+        <h4>Subtotal <span>3 items</span> <span class="h1">$1000.00</span></h4>
+        <br>
+        <button class="btn btn-outline-warning">Proceed to buy(3 items)</button>
+    </div>
+    <hr>
+    <div class="items ">
+        <div class="item col-12">
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-3">
+                    <img src="" alt="" width="90" height="90">
+                </div>
+                <div class="col-9 col-lg-9 col-md-9 p-1 d-flex flex-column">
+                    <h5>product name Lorem ipsum dolor sit.</h5>
+                    <p>deal of the day</p>
+                    <h2>$345.00</h2>
+                    <p>M.R.P: <s>$355.00</s></p>
+                    <div class="cartopt dropdown col d-flex flex-wrap bg-success col-lg-8 col-md-10 col-12 gap-1 ">         
+                            <button id="btl" class="col btn btn-primary dropdown-toggle col" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Quantity
+                            </button>
+                            <div class="  vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Buy</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary" >Delete</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn btn-primary col">Save for later</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Share</button>
+    
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item" href="#">1</a></li>
+                              <li><a class="dropdown-item" href="#">2</a></li>
+                              <li><a class="dropdown-item" href="#">3</a></li>
+                              <li><a class="dropdown-item" href="#">4</a></li>
+                              <li><a class="dropdown-item" href="#">5</a></li>                              
+                            </ul>
+                        </div>
+                    <br><br><br>
+
+                    
+                </div>
+            </div>
+            <div class="row"></div>
+        </div><hr>
+        <div class="item col-12">
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-3">
+                    <img src="" alt="" width="90" height="90">
+                </div>
+                <div class="col-9 col-lg-9 col-md-9 p-1 d-flex flex-column">
+                    <h5>product name Lorem ipsum dolor sit.</h5>
+                    <p>deal of the day</p>
+                    <h2>$345.00</h2>
+                    <p>M.R.P: <s>$355.00</s></p>
+                    <div class="cartopt dropdown col d-flex flex-wrap bg-success col-lg-8 col-md-10 col-12 gap-1 ">         
+                            <button id="btl" class="col btn btn-primary dropdown-toggle col" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Quantity
+                            </button>
+                            <div class="  vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Buy</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Delete</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn btn-primary col">Save for later</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Share</button>
+    
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item" href="#">1</a></li>
+                              <li><a class="dropdown-item" href="#">2</a></li>
+                              <li><a class="dropdown-item" href="#">3</a></li>
+                              <li><a class="dropdown-item" href="#">4</a></li>
+                              <li><a class="dropdown-item" href="#">5</a></li>                              
+                            </ul>
+                        </div>
+                    <br><br><br>
+
+                    
+                </div>
+            </div>
+            <div class="row"></div>
+        </div><hr>
+        <div class="item col-12">
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-3">
+                    <img src="" alt="" width="90" height="90">
+                </div>
+                <div class="col-9 col-lg-9 col-md-9 p-1 d-flex flex-column">
+                    <h5>product name Lorem ipsum dolor sit.</h5>
+                    <p>deal of the day</p>
+                    <h2>$345.00</h2>
+                    <p>M.R.P: <s>$355.00</s></p>
+                    <div class="cartopt dropdown col d-flex flex-wrap bg-success col-lg-8 col-md-10 col-12 gap-1 ">         
+                            <button id="btl" class="col btn btn-primary dropdown-toggle col" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Quantity
+                            </button>
+                            <div class="  vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Buy</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Delete</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn btn-primary col">Save for later</button>
+                            <div class=" vlcol"> <div class="vertical-line"></div> </div>
+                            <button id="btl" class=" btn col btn-primary">Share</button>
+    
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item" href="#">1</a></li>
+                              <li><a class="dropdown-item" href="#">2</a></li>
+                              <li><a class="dropdown-item" href="#">3</a></li>
+                              <li><a class="dropdown-item" href="#">4</a></li>
+                              <li><a class="dropdown-item" href="#">5</a></li>                              
+                            </ul>
+                    </div>
+                    <br><br><br>
+                    
+                </div>
+            </div>
+            <div class="row"></div>
+        </div>
+    </div>
+</main>
+
+   <footer class="bg-success row" style="width:101%;">
+    <div class="row p-3">
+        <div class="col">
+            <h1>Grocerex</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, optio. Asperiores sunt iure expedita velit maiores, non quos voluptates deserunt.</p>
+        </div>
+    
+        <div class="col">
+            <h2>Support</h2>
+            <p>Track Your Order</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Popcy</p>
+            <p>Help Center</p>
+        </div>
+
+        <div class="col">
+            <h2>Contact</h2>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">Place x,XY floor,xyz Streeet,xyz</p>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">hacky@gmail.com</p>
+            <p><img src="../images/images.jpeg" alt="" height="15" width="15">+123-456-0789</p>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="row p-2 ">
+        <p class="text-center">Copyright@ 2023 Grocerex By Hackylazymedia. All Rights Reserved</p>
+    </div>
+</footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
